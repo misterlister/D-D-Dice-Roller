@@ -116,7 +116,7 @@ int getSets()
 void classic3d6(int sets)
 {
     for(int currSet = 1; currSet <= sets; currSet++) {
-        for(int stat = 1; stat <= numStats; stat++) {
+        for(int stat = 1; stat <= NumStats; stat++) {
             int r1, r2, r3, total;
             r1 = (rand() % 6) + 1;
             r2 = (rand() % 6) + 1;
@@ -132,7 +132,7 @@ void classic3d6(int sets)
 void droplow4d6(int sets)
 {
     for(int currSet = 1; currSet <= sets; currSet++) {
-        for(int stat = 1; stat <= numStats; stat++) {
+        for(int stat = 1; stat <= NumStats; stat++) {
             int r1, r2, r3, r4, total;
             r1 = (rand() % 6) + 1;
             r2 = (rand() % 6) + 1;
@@ -160,7 +160,7 @@ void droplow4d6(int sets)
 void droplow5d6(int sets)
 {
     for(int currSet = 1; currSet <= sets; currSet++) {
-        for(int stat = 1; stat <= numStats; stat++) {
+        for(int stat = 1; stat <= NumStats; stat++) {
             int r1, r2, r3, r4, r5, total;
             r1 = (rand() % 6) + 1;
             r2 = (rand() % 6) + 1;
@@ -245,7 +245,7 @@ void haydenalgo(int sets)
             cout << setw(2) << total << " ";
             stat ++;
         }
-        while (stat <= numStats ) {
+        while (stat <= NumStats ) {
             int r1, r2, r3, r4, r5, total;
             r1 = (rand() % 6) + 1;
             r2 = (rand() % 6) + 1;

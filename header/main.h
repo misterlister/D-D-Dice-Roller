@@ -2,7 +2,7 @@
 
 const int NumMethods = 4;
 const int ReasonableRolls = 100;
-const int numStats = 6;
+const int NumStats = 6;
 
 void greetings();
 int pickMethod();
